@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>reservations </title>
+
+        <!-- Favicon (logo in browser tab or search bar) -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <style>
+        /* Style for navigation */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Gallery container */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        /* Style for all images & videos */
+        .gallery img,
+        .gallery video {
+            width: 200px;       /* fixed width */
+            height: 150px;      /* fixed height */
+            object-fit: cover;  /* keeps images/videos proportional */
+            border-radius: 8px; /* rounded corners */
+        }
+    </style>
+</head>
+
+<body>
+        <!-- Visible Logo on Page -->
+    <header>
+        <img src="img/logo.png" alt="Prestige Lifestyle Logo" style="height: 80px;">
+    </header>
+    <ul>
+        <li><a href="index.html">Home </a></li>
+        <li><a href="reservations.html">reserve </a></li>
+        <li><a href="services.html">services </a></li>
+        <li><a href="tables.html">tables </a></li>
+        <li><a href="about us.html">about us </a></li>
+        <li><a href="contacts.html">contacts </a></li>
+</ul>
+   
+</h10>Table & VIP booth</h10>
+
+<div class="gallery">
+    <figure>
+        <img src="img/vip33.jpeg" alt="vip section black couch">
+        <figcaption>VIP Section – Black Couch</figcaption>
+    </figure>
+    <figure>
+        <video src="img/vipbooth.mp4" controls></video>
+        <figcaption>VIP Booth</figcaption>
+    </figure>
+</div>
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  max-width: 900px;
+  margin: auto;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+</style>
+
+    
+
+</body>
